@@ -1,0 +1,124 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url("https://phone.firertc.com/") {
+
+/* Colors:
+  Light Red - #f2dede
+  Light Green - 
+/* Main Board */
+  .jumbotron {
+    background-color: #333;
+  }
+  body .container .inner-container .jumbotron {
+    background-color: #333;
+  }
+  body {
+    background-color: #222;
+    color: #e6e6e6;
+  }
+  body[data-controller="home"][data-action="phone"] .phone-container .phone header.header .status {
+    background-color: #777;
+    border: none;
+  }
+  body[data-controller="home"][data-action="phone"] .phone-container .phone .body .buttons a.btn, body[data-controller="home"][data-action="phone"] .phone-container .phone .body .buttons button, body[data-controller="home"][data-action="phone"] .phone-container .phone .body .buttons input.btn {
+    background-color: #777;
+  }
+  button {
+    background-color: #777 !important;
+  }
+  body[data-controller="home"][data-action="phone"] .phone-container .phone .body .toggle-bar .btn.clicked {
+    background-color: #e6e6e6;
+    color: #e6e6e6;
+  }
+  body[data-controller="home"][data-action="phone"] .phone-container .phone .body .toggle-bar .btn {
+    color: #e6e6e6;
+  }
+  .dialer .dialpad .buttons {
+    background-color: #333;
+  }
+  .dialer .dialpad .buttons dl.button {
+    background-color: #222;
+  }
+  .dialer .dialpad .buttons dl.button:hover {
+    background-color: #444;
+  }
+  .form-control {
+    background-color: #222;
+    color: #e6e6e6;
+  }
+  body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="reject"], body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="logout"] {
+    background-color: #e27c79 !important;
+    color: #e6e6e6;
+  }
+  body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="call"], body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="answer"] {
+    background-color: #80c780 !important;
+    color: #e6e6e6;
+  }
+  .btn .caret {
+    color: #e6e6e6;
+  }
+  .dropdown-menu {
+    background-color: #333;
+  }
+  .dropdown-menu > li > a {
+    color: #e6e6e6;
+    background-color: #333;
+  }
+  .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #327cbb;
+    background-color: #333;
+  }
+  body .container .inner-container .jumbotron .menu ul.dropdown-menu li.active a {
+    background-color: #333;
+  }
+  .recents-container .recents .recents-list div.calls-container .calls-list-container {
+    background-color: #333;
+  }
+  .recents-container .recents .recents-list div.calls-container .calls-list-container ul.calls-list li.recents-item {
+    background-color: #222;
+  }
+  .recents-container .recents .recents-list div.calls-container .calls-list-container ul.calls-list li.recents-item:hover {
+    background-color: #444;
+  }
+  .recents-container .recents .btn-group-wrapper .btn-group .recents-button {
+    background-color: #e6e6e6;
+    color: #e6e6e6;
+  }
+  .recents-container .recents .recents-list div.calls-container div.pager-info a {
+    color: #e6e6e6;
+    background-color: #777;
+    border-color: #777;
+  }
+  .media-container .flex-video .buttons .btn.unmuted {
+    color: #e6e6e6;
+    border-color: #777;
+  }
+  .recents-container .recents .recents-list div.calls-container .calls-list-container {
+    border-color: #333;
+  }
+  .dialer .dropdown ul.dropdown-menu li.list-item.heading {
+    background-color: #333 !important;
+  }
+  .recents-container .recents .btn-group-wrapper .btn-group #clear-recents {
+    color: #e6e6e6;
+    background-color: #d9534f !important;
+  }
+  body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="cancel"], body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="hangup"] {
+    color: #e6e6e6;
+    background-color: #e27c79 !important;;
+  }
+  .dialer .dropdown ul.dropdown-menu li.list-item.list-item:hover, .dialer .dropdown ul.dropdown-menu li.list-item.selected {
+    background-color: #444 !important;;
+  }
+  body[data-controller="home"][data-action="phone"] .phone-container .phone .body .toggle-bar .btn.clicked {
+    border-color: #333;
+  }
+  body[data-controller="home"][data-action="phone"] .phone-container .phone .body .toggle-bar .btn:hover {
+    border-color: none;
+  }
+  .dialer .dropdown ul.dropdown-menu li.list-item.list-item:nth-child(2n+1) {
+    border: none;
+  }
+}
+
+
