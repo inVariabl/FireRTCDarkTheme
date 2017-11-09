@@ -115,6 +115,10 @@
   .dialer .dropdown ul.dropdown-menu li.list-item.list-item:nth-child(2n+1) {
     border: none;
   }
+  .soundboard-container .soundboard .soundboard-button-container li .soundboard-button {
+    color: #e6e6e6;
+    background-color: #222;
+  }
 }
 
 
