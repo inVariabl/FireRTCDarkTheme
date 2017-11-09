@@ -1,11 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document url("https://phone.firertc.com/") {
-
-/* Colors:
-  Light Red - #f2dede
-  Light Green - 
-/* Main Board */
+  
   .jumbotron {
     background-color: #333;
   }
