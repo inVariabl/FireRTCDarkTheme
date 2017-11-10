@@ -1,6 +1,6 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document url("https://phone.firertc.com/") {
+@-moz-document url("https://phone.firertc.com/phone") {
   
   .jumbotron {
     background-color: #333;
@@ -116,8 +116,8 @@
     border: none;
   }
   .soundboard-container .soundboard .soundboard-button-container li .soundboard-button {
-    color: #e6e6e6;
-    background-color: #222;
+    color: #e6e6e6 !important;
+    background-color: #222 !important;
   }
 }
 
