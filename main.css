@@ -168,6 +168,10 @@ body[data-controller="sessions"][data-action="new"] .jumbotron-body a.btn, body[
   background-color: #777;
   border-color: #777;
   }
+body[data-controller="home"][data-action="settings"] .settings-container a.btn:hover, body[data-controller="home"][data-action="settings"] .settings-container button:hover, body[data-controller="home"][data-action="settings"] .settings-container input.btn:hover {
+  background-color: #222;
+  color: #e6e6e6;
+  }
 .btn-default {
   color: #e6e6e6;
   }
