@@ -147,8 +147,18 @@ body .container .inner-container .jumbotron .nav-links a {
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: transparent;
 }
-  /** Dashboard **/
+/** Dashboard **/
+/* Phone Button */
+body[data-controller="home"][data-action="dashboard"] .nav-container a.btn, body[data-controller="home"][data-action="dashboard"] .nav-container button, body[data-controller="home"][data-action="dashboard"] .nav-container input.btn {
+  background-color: #777;
+  color: #e6e6e6;
+  border-color: #777;
+  }
+  
+/* Phone Button (Hover) */
+body[data-controller="home"][data-action="dashboard"] .nav-container a.btn:hover, body[data-controller="home"][data-action="dashboard"] .nav-container button:hover, body[data-controller="home"][data-action="dashboard"] .nav-container input.btn:hover {
+  background-color: #222;
+  }
+/** Settings **/
   
 }
-
-
