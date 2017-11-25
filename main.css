@@ -1,6 +1,6 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document url("https://phone.firertc.com/phone") {
+@-moz-document domain("https://phone.firertc.com/") {
 /** Color Pallette **/
 /* 
 Background Grey: #333;
