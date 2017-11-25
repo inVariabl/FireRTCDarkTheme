@@ -198,4 +198,8 @@ body[data-controller="registrations"][data-action="edit"] .jumbotron-body a.btn,
 body[data-controller="registrations"][data-action="edit"] .jumbotron-body a.btn:hover, body[data-controller="registrations"][data-action="edit"] .jumbotron-body button:hover, body[data-controller="registrations"][data-action="edit"] .jumbotron-body input.btn:hover {
   background-color: #222;
   }
+/* Phone Dropdown Number List Thing */
+.dialer .dropdown ul.dropdown-menu li.list-item.list-item:nth-child(2n+1) {
+  background-color: #333;
+  }
 }
