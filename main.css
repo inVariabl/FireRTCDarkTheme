@@ -130,6 +130,25 @@ body .container .inner-container .jumbotron {
     color: #e6e6e6 !important;
     background-color: #222 !important;
   }
+  
+  /** Sign In **/
+  /* Sign In Button */
+body[data-controller="sessions"][data-action="new"] .jumbotron-body a.btn, body[data-controller="sessions"][data-action="new"] .jumbotron-body button, body[data-controller="sessions"][data-action="new"] .jumbotron-body input.btn {
+  background-color: #777;
+  border-color: #777;
+  }
+.btn-default {
+  color: #e6e6e6;
+}
+  /* Sign Up & Forgot Password */
+body .container .inner-container .jumbotron .nav-links a {
+  color: #e6e6e6;
+  }
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: transparent;
+}
+  /** Dashboard **/
+  
 }
 
 
