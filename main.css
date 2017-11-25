@@ -140,6 +140,11 @@ body .container .inner-container .jumbotron .menu ul.dropdown-menu li.active a {
   background-color: #777;
   border-color: #777;
   }
+/* hover */
+.recents-container .recents .recents-list div.calls-container div.pager-info a:hover, .recents-container .recents .recents-list div.calls-container div.pager-info a:focus {
+  background-color: #222;
+  color: #e6e6e6;
+}
 
 /** Phone (Calling) **/
 /* Mute Button */
@@ -208,6 +213,16 @@ body .container .inner-container .jumbotron .nav-links a:hover, body .container 
 
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: transparent;
+}
+
+/* Sign Up Button */
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+  background-color: #222 !important;
+  color: #e6e6e6;
+}
+/* Forgot Password Button */
+body[data-controller="passwords"][data-action="new"] .jumbotron-body a.btn, body[data-controller="passwords"][data-action="new"] .jumbotron-body button, body[data-controller="passwords"][data-action="new"] .jumbotron-body input.btn {
+  background-color: #777;
 }
 
 /** Dashboard **/
