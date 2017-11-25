@@ -167,11 +167,11 @@ body .container .inner-container .jumbotron .menu ul.dropdown-menu li.active a {
  
 body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="cancel"], body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="hangup"] {
   color: #e6e6e6;
-  background-color: #e27c79 !important;;
+  background-color: #e27c79 !important;
   }
 
 .dialer .dropdown ul.dropdown-menu li.list-item.list-item:hover, .dialer .dropdown ul.dropdown-menu li.list-item.selected {
-  background-color: #444 !important;;
+  background-color: #444 !important;
   }
 
 body[data-controller="home"][data-action="phone"] .phone-container .phone .body .toggle-bar .btn.clicked {
