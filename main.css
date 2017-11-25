@@ -144,6 +144,9 @@ body[data-controller="sessions"][data-action="new"] .jumbotron-body a.btn, body[
 body .container .inner-container .jumbotron .nav-links a {
   color: #e6e6e6;
   }
+body .container .inner-container .jumbotron .nav-links a:hover, body .container .inner-container .jumbotron .nav-links a:focus {
+  color: #e6e6e6;
+  }
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: transparent;
 }
