@@ -10,10 +10,12 @@ Text Color: #e6e6e6;
 Button Color: #777;
 */
 
+/** Phone **/
 /* Jumbotron -or- Main */
 .jumbotron {
   background-color: #333;
   }
+
 body .container .inner-container .jumbotron {
   background-color: #333;
   }
@@ -28,86 +30,112 @@ body[data-controller="home"][data-action="phone"] .phone-container .phone header
   background-color: #777;
   border: none;
   }
-  body[data-controller="home"][data-action="phone"] .phone-container .phone .body .buttons a.btn, body[data-controller="home"][data-action="phone"] .phone-container .phone .body .buttons button, body[data-controller="home"][data-action="phone"] .phone-container .phone .body .buttons input.btn {
-    background-color: #777;
+
+body[data-controller="home"][data-action="phone"] .phone-container .phone .body .buttons a.btn, body[data-controller="home"][data-action="phone"] .phone-container .phone .body .buttons button, body[data-controller="home"][data-action="phone"] .phone-container .phone .body .buttons input.btn {
+  background-color: #777;
   }
-  button {
-    background-color: #777 !important;
+
+button {
+  background-color: #777 !important;
   }
-  body[data-controller="home"][data-action="phone"] .phone-container .phone .body .toggle-bar .btn.clicked {
-    background-color: #e6e6e6;
-    color: #e6e6e6;
+
+body[data-controller="home"][data-action="phone"] .phone-container .phone .body .toggle-bar .btn.clicked {
+  background-color: #e6e6e6;
+  color: #e6e6e6;
   }
-  body[data-controller="home"][data-action="phone"] .phone-container .phone .body .toggle-bar .btn {
-    color: #e6e6e6;
+
+body[data-controller="home"][data-action="phone"] .phone-container .phone .body .toggle-bar .btn {
+  color: #e6e6e6;
   }
-  .dialer .dialpad .buttons {
-    background-color: #333;
+
+.dialer .dialpad .buttons {
+  background-color: #333;
   }
-  .dialer .dialpad .buttons dl.button {
-    background-color: #222;
+
+.dialer .dialpad .buttons dl.button {
+  background-color: #222;
   }
-  .dialer .dialpad .buttons dl.button:hover {
-    background-color: #444;
+
+.dialer .dialpad .buttons dl.button:hover {
+  background-color: #444;
   }
-  .form-control {
-    background-color: #222;
-    color: #e6e6e6;
+
+.form-control {
+  background-color: #222;
+  color: #e6e6e6;
   }
-  body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="reject"], body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="logout"] {
-    background-color: #e27c79 !important;
-    color: #e6e6e6;
+
+body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="reject"], body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="logout"] {
+  background-color: #e27c79 !important;
+  color: #e6e6e6;
   }
-  body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="call"], body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="answer"] {
-    background-color: #80c780 !important;
-    color: #e6e6e6;
+
+body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="call"], body[data-controller="home"][data-action="phone"] .phone-container .phone .btn[data-action="answer"] {
+  background-color: #80c780 !important;
+  color: #e6e6e6;
   }
-  .btn .caret {
-    color: #e6e6e6;
+
+.btn .caret {
+  color: #e6e6e6;
   }
-  .dropdown-menu {
-    background-color: #333;
+
+.dropdown-menu {
+  background-color: #333;
   }
-  .dropdown-menu > li > a {
-    color: #e6e6e6;
-    background-color: #333;
+
+.dropdown-menu > li > a {
+  color: #e6e6e6;
+  background-color: #333;
   }
-  .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-    color: #327cbb;
-    background-color: #333;
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  color: #327cbb;
+  background-color: #333;
   }
-  body .container .inner-container .jumbotron .menu ul.dropdown-menu li.active a {
-    background-color: #333;
+
+body .container .inner-container .jumbotron .menu ul.dropdown-menu li.active a {
+  background-color: #333;
   }
-  .recents-container .recents .recents-list div.calls-container .calls-list-container {
-    background-color: #333;
+
+.recents-container .recents .recents-list div.calls-container .calls-list-container {
+  background-color: #333;
   }
-  .recents-container .recents .recents-list div.calls-container .calls-list-container ul.calls-list li.recents-item {
-    background-color: #222;
+
+.recents-container .recents .recents-list div.calls-container .calls-list-container ul.calls-list li.recents-item {
+  background-color: #222;
   }
-  .recents-container .recents .recents-list div.calls-container .calls-list-container ul.calls-list li.recents-item:hover {
-    background-color: #444;
+
+.recents-container .recents .recents-list div.calls-container .calls-list-container ul.calls-list li.recents-item:hover {
+  background-color: #444;
   }
-  .recents-container .recents .btn-group-wrapper .btn-group .recents-button {
-    background-color: #e6e6e6;
-    color: #e6e6e6;
+
+.recents-container .recents .btn-group-wrapper .btn-group .recents-button {
+  background-color: #e6e6e6;
+  color: #e6e6e6;
   }
-  .recents-container .recents .recents-list div.calls-container div.pager-info a {
-    color: #e6e6e6;
-    background-color: #777;
-    border-color: #777;
+
+.recents-container .recents .recents-list div.calls-container div.pager-info a {
+  color: #e6e6e6;
+  background-color: #777;
+  border-color: #777;
   }
-  .media-container .flex-video .buttons .btn.unmuted {
-    color: #e6e6e6;
-    border-color: #777;
+
+.media-container .flex-video .buttons .btn.unmuted {
+  color: #e6e6e6;
+  border-color: #777;
   }
-  .recents-container .recents .recents-list div.calls-container .calls-list-container {
-    border-color: #333;
+
+.recents-container .recents .recents-list div.calls-container .calls-list-container {
+  border-color: #333;
   }
-  .dialer .dropdown ul.dropdown-menu li.list-item.heading {
-    background-color: #333 !important;
+
+.dialer .dropdown ul.dropdown-menu li.list-item.heading {
+  background-color: #333 !important;
   }
-  .recents-container .recents .btn-group-wrapper .btn-group #clear-recents {
+
+.recents-container .recents .btn-group-wrapper .btn-group #clear-recents {
+  }
+
 .recents-container .recents .btn-group-wrapper .btn-group .recents-button {
   background-color: #e6e6e6;
   color: #e6e6e6;
@@ -151,37 +179,44 @@ body[data-controller="home"][data-action="phone"] .phone-container .phone .body 
   }
 
 body[data-controller="home"][data-action="phone"] .phone-container .phone .body .toggle-bar .btn:hover {
-    border-color: none;
+  border-color: none;
   }
-  .dialer .dropdown ul.dropdown-menu li.list-item.list-item:nth-child(2n+1) {
-    border: none;
+
+.dialer .dropdown ul.dropdown-menu li.list-item.list-item:nth-child(2n+1) {
+  border: none;
   }
-  .soundboard-container .soundboard .soundboard-button-container li .soundboard-button {
-    color: #e6e6e6 !important;
-    background-color: #222 !important;
+
+.soundboard-container .soundboard .soundboard-button-container li .soundboard-button {
+  color: #e6e6e6 !important;
+  background-color: #222 !important;
   }
-  
-  /** Sign In **/
-  /* Sign In Button */
+
+/** Sign In **/
+/* Sign In Button */
 body[data-controller="sessions"][data-action="new"] .jumbotron-body a.btn, body[data-controller="sessions"][data-action="new"] .jumbotron-body button, body[data-controller="sessions"][data-action="new"] .jumbotron-body input.btn {
   background-color: #777;
   border-color: #777;
   }
+
 .btn-default {
   color: #e6e6e6;
   background-color: #777;
   border-color: #777;
-}
+  }
+
   /* Sign Up & Forgot Password */
 body .container .inner-container .jumbotron .nav-links a {
   color: #e6e6e6;
   }
+
 body .container .inner-container .jumbotron .nav-links a:hover, body .container .inner-container .jumbotron .nav-links a:focus {
   color: #e6e6e6;
   }
+
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: transparent;
 }
+
 /** Dashboard **/
 /* Phone Button */
 body[data-controller="home"][data-action="dashboard"] .nav-container a.btn, body[data-controller="home"][data-action="dashboard"] .nav-container button, body[data-controller="home"][data-action="dashboard"] .nav-container input.btn {
@@ -194,20 +229,24 @@ body[data-controller="home"][data-action="dashboard"] .nav-container a.btn, body
 body[data-controller="home"][data-action="dashboard"] .nav-container a.btn:hover, body[data-controller="home"][data-action="dashboard"] .nav-container button:hover, body[data-controller="home"][data-action="dashboard"] .nav-container input.btn:hover {
   background-color: #222;
   }
+
 /** Settings **/
 /* Button */
 body[data-controller="sessions"][data-action="new"] .jumbotron-body a.btn, body[data-controller="sessions"][data-action="new"] .jumbotron-body button, body[data-controller="sessions"][data-action="new"] .jumbotron-body input.btn {
   background-color: #777;
   border-color: #777;
   }
+
 body[data-controller="home"][data-action="settings"] .settings-container a.btn:hover, body[data-controller="home"][data-action="settings"] .settings-container button:hover, body[data-controller="home"][data-action="settings"] .settings-container input.btn:hover {
   background-color: #222 !important;
   color: #e6e6e6;
   }
+
 body[data-controller="home"][data-action="settings"] .settings-container a.btn, body[data-controller="home"][data-action="settings"] .settings-container button, body[data-controller="home"][data-action="settings"] .settings-container input.btn {
   background-color: #777;
   border-color: #777;
   }
+
 /* Back */
-body .container .inner-container .jumbotron .nav-links a {
-  color: #e6e6e6;
+
+
