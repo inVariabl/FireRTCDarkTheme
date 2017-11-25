@@ -1,0 +1,46 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url("https://phone.firertc.com/auth/sign_in") {
+/** Color Pallette **/
+/* 
+Background Grey: #333;
+Surrounding Black: #222;
+Text Boxes: #222;
+Text Color: #e6e6e6;
+Button Color: #777;
+*/
+
+/* Jumbotron -or- Main */
+.jumbotron {
+  background-color: #333;
+  }
+  
+/* Surrounding Background Color */
+body {
+  background-color: #222;
+  color: #e6e6e6;
+  }
+  
+/* Sign In Button */
+body[data-controller="sessions"][data-action="new"] .jumbotron-body a.btn, body[data-controller="sessions"][data-action="new"] .jumbotron-body button, body[data-controller="sessions"][data-action="new"] .jumbotron-body input.btn {
+  background-color: #777;
+  border-color: #777;
+  }
+.btn-default {
+  color: #e6e6e6;
+  }
+  
+/* Username & Password */
+.form-control {
+  background-color: #222;
+  color: #e6e6e6;
+  }
+  
+/* Sign Up & Forgot Password */
+body .container .inner-container .jumbotron .nav-links a {
+  color: #e6e6e6;
+  }
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: transparent;
+  }
+}
