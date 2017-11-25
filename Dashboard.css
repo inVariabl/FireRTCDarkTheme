@@ -28,9 +28,6 @@ body[data-controller="home"][data-action="dashboard"] .nav-container a.btn, body
   border-color: #777;
   
 /* Phone Button (Hover) */
-body[data-controller="home"][data-action="dashboard"] .nav-container a.btn:hover, body[data-controller="home"][data-action="dashboard"] .nav-container button:hover, body[data-controller="home"][data-action="dashboard"] .nav-container input.btn:hover {
-  background-color: #222;
-  }
   
 /* Dropdown Menu */
 .dropdown-menu {
