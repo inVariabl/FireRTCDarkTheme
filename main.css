@@ -139,6 +139,7 @@ body[data-controller="sessions"][data-action="new"] .jumbotron-body a.btn, body[
   }
 .btn-default {
   color: #e6e6e6;
+  background-color: #777;
 }
   /* Sign Up & Forgot Password */
 body .container .inner-container .jumbotron .nav-links a {
@@ -172,9 +173,6 @@ body[data-controller="home"][data-action="settings"] .settings-container a.btn:h
   background-color: #222;
   color: #e6e6e6;
   }
-.btn-default {
-  color: #e6e6e6;
-  }
 body[data-controller="home"][data-action="settings"] .settings-container a.btn, body[data-controller="home"][data-action="settings"] .settings-container button, body[data-controller="home"][data-action="settings"] .settings-container input.btn {
   background-color: #777;
   border-color: #777;
@@ -185,5 +183,10 @@ body .container .inner-container .jumbotron .nav-links a {
   }
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: transparent;
+  }
+/** Buddies and Change Password **/
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+  background-color: #222;
+  color: #e6e6e6;
   }
 }
