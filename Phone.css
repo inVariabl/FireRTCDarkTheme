@@ -1,13 +1,24 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document url("https://phone.firertc.com/phone") {
-  
-  .jumbotron {
-    background-color: #333;
+/** Color Pallette **/
+/* 
+Background Grey: #333;
+Surrounding Black: #222;
+Text Boxes: #222;
+Text Color: #e6e6e6;
+Button Color: #777;
+*/
+
+/* Jumbotron -or- Main */
+.jumbotron {
+  background-color: #333;
   }
-  body .container .inner-container .jumbotron {
-    background-color: #333;
+body .container .inner-container .jumbotron {
+  background-color: #333;
   }
+
+/* Surrounding Background */  
   body {
     background-color: #222;
     color: #e6e6e6;
