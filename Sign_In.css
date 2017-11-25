@@ -11,7 +11,7 @@ Button Color: #777;
 */
 
 /* Jumbotron -or- Main */
-.jumbotron {
+body .container .inner-container .jumbotron {
   background-color: #333;
   }
   
