@@ -202,4 +202,11 @@ body[data-controller="registrations"][data-action="edit"] .jumbotron-body a.btn:
 .dialer .dropdown ul.dropdown-menu li.list-item.list-item:nth-child(2n+1) {
   background-color: #333;
   }
+/* Forgot Password */
+body[data-controller="passwords"][data-action="new"] .jumbotron-body a.btn:hover, body[data-controller="passwords"][data-action="new"] .jumbotron-body button:hover, body[data-controller="passwords"][data-action="new"] .jumbotron-body input.btn:hover {
+  background-color: #222;
+  }
+body[data-controller="passwords"][data-action="new"] .jumbotron-body a.btn, body[data-controller="passwords"][data-action="new"] .jumbotron-body button, body[data-controller="passwords"][data-action="new"] .jumbotron-body input.btn {
+  background-color: #777;
+  }
 }
