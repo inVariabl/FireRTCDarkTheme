@@ -32,4 +32,19 @@ body[data-controller="home"][data-action="dashboard"] .nav-container a.btn:hover
   background-color: #222;
   }
   
-/* 
+/* Dropdown Menu */
+.dropdown-menu {
+  background-color: #333;
+  }
+.dropdown-menu > li > a {
+  color: #e6e6e6;
+  background-color: #333;
+  }
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  color: #327cbb;
+  background-color: #333;
+  }
+body .container .inner-container .jumbotron .menu ul.dropdown-menu li.active a {
+  background-color: #333;
+  }
+}
