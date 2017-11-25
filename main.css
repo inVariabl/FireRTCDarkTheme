@@ -184,9 +184,17 @@ body .container .inner-container .jumbotron .nav-links a {
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: transparent;
   }
-/** Buddies and Change Password **/
+/** Buddies **/
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
   background-color: #222;
   color: #e6e6e6;
+  }
+/** Change Password **/
+body[data-controller="registrations"][data-action="edit"] .jumbotron-body a.btn, body[data-controller="registrations"][data-action="edit"] .jumbotron-body button, body[data-controller="registrations"][data-action="edit"] .jumbotron-body input.btn {
+  background-color: #777;
+  border-color: #777;
+  }
+body[data-controller="registrations"][data-action="edit"] .jumbotron-body a.btn:hover, body[data-controller="registrations"][data-action="edit"] .jumbotron-body button:hover, body[data-controller="registrations"][data-action="edit"] .jumbotron-body input.btn:hover {
+  background-color: #222;
   }
 }
