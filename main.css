@@ -171,7 +171,7 @@ body[data-controller="sessions"][data-action="new"] .jumbotron-body a.btn, body[
   border-color: #777;
   }
 body[data-controller="home"][data-action="settings"] .settings-container a.btn:hover, body[data-controller="home"][data-action="settings"] .settings-container button:hover, body[data-controller="home"][data-action="settings"] .settings-container input.btn:hover {
-  background-color: #222;
+  background-color: #222 !important;
   color: #e6e6e6;
   }
 body[data-controller="home"][data-action="settings"] .settings-container a.btn, body[data-controller="home"][data-action="settings"] .settings-container button, body[data-controller="home"][data-action="settings"] .settings-container input.btn {
